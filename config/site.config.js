@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Cloud Drive",
+  title: "Cloud Server",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/cloud',
@@ -38,7 +38,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href="https://m.me/mujahidul.info" target="_blank" rel="noopener noreferrer">Programabad</a>. Made with ❤ by Mujahidul Islam.',
+    'Powered by <a href="#" target="_blank" rel="noopener noreferrer">Programabad</a>. Made with ❤',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
@@ -53,7 +53,7 @@ module.exports = {
   links: [
     {
       name: 'Facebook',
-      link: 'https://fb.com/mujahidul.info',
+      link: '#',
     },
   ],
 
